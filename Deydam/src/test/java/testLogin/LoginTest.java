@@ -2,10 +2,10 @@ package testLogin;
 
 //import org.junit.Test;
 import pages.DashboardPage;
-import setUp.setupTests;
+import setUp.setUps;
 import org.testng.annotations.Test;
 
-public class LoginTest extends setupTests {
+public class LoginTest extends setUps {
 
     @Test
     public void testSuccessfulLogin(){

@@ -3,11 +3,11 @@ package testDashboard;
 //import org.junit.Test;
 import pages.DashboardPage;
 import pages.LoginPage;
-import setUp.setupTests;
+import setUp.setUps;
 import org.testng.annotations.Test;
 
 
-public class DashboardTests extends setupTests {
+public class DashboardTests extends setUps {
 
     @Test
     public void testDashboard(){

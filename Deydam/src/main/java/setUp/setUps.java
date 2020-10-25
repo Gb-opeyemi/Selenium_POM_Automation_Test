@@ -8,12 +8,13 @@ import pages.LoginPage;
 
 import java.util.concurrent.TimeUnit;
 
-public class setupTests {
+public class setUps {
+
 
     private WebDriver driver;
     protected LoginPage loginPage;
 
-     @BeforeTest
+    @BeforeTest
     public void setup() throws InterruptedException {
         //Importation of Chrome Driver
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
@@ -32,13 +33,9 @@ public class setupTests {
 
     }
 
-        @AfterTest
-        public void tearDown(){
-            driver.quit();
+    @AfterTest
+    public void tearDown(){
+        driver.quit();
     }
 
-  //  public static void main(String args[]) throws InterruptedException {
-   //     setupTests test = new setupTests();
-     //   test.setup();
-   // }
 }
